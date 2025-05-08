@@ -1,7 +1,7 @@
 public class Mahasiswa extends User {
 
     public Mahasiswa(String nama, String nim) {
-        super(nama, nim); // panggil constructor dari superclass
+        super(nama, nim);
     }
 
     @Override

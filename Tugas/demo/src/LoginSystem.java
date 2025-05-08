@@ -4,8 +4,7 @@ public class LoginSystem {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // Dummy data admin dan mahasiswa
-        Admin admin = new Admin("Admin368", "368", "Admin", "Admin368");
+        Admin admin = new Admin("Finaaa namanya", "368", "Admin", "Password368");
         Mahasiswa mahasiswa = new Mahasiswa("Alfina Nil Husna", "202410370110368");
 
         System.out.println("===== Sistem Login =====");
@@ -13,8 +12,7 @@ public class LoginSystem {
         System.out.println("2. Login sebagai Mahasiswa");
         System.out.print("Pilih (1/2): ");
         int pilihan = scanner.nextInt();
-        scanner.nextLine(); // buang newline
-
+        scanner.nextLine();
         boolean loginBerhasil = false;
 
         if (pilihan == 1) {

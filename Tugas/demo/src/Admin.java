@@ -3,7 +3,7 @@ public class Admin extends User {
     private String password;
 
     public Admin(String nama, String nim, String username, String password) {
-        super(nama, nim); // panggil constructor dari superclass
+        super(nama, nim);
         this.username = username;
         this.password = password;
     }

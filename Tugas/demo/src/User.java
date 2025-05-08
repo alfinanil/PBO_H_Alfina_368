@@ -2,7 +2,7 @@ public class User {
     private String nama;
     private String nim;
 
-    public User(String nama, String nim) {
+    public User(String nama, String nim) {//constractor
         this.nama = nama;
         this.nim = nim;
     }
